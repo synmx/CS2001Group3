@@ -1,0 +1,211 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="frontendDesign.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <title>Medication Audit & Alerts</title>
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" link= "homepage.html">StarCare</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Medication
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Audit</a>
+                    <a class="dropdown-item" href="#">Alerts</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">More...</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Reports</a>
+                </li>
+             <div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family:Stencil Std, fantasy;
+}
+
+.notification {
+  background-color: #00C9FC;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+ 
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+</style>
+
+<a href="#" class="notification">
+  <span><Alert</span>
+  <span class= "badge">5</span>
+  Alert
+<a>
+      </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>
+              </form>
+              </style>
+            </div>
+          </nav>
+  <head>
+  <style type="text/css">
+     table.redTable {
+  border: 2px solid #FFEB50;
+  background-color: #B2FBFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid black;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 13px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F8FFDD;
+}
+table.redTable thead {
+  background: #55BDE2;
+}
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-left: 2px solid #00C9FC;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #55BDE2;
+  background: #00C9FC;
+}
+table.redTable tfoot td {
+  font-size: 13px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #00C9FC;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+  </style>
+</head>        
+          
+ <p>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  MEDICATION AUDIT&nbsp;</p>
+<table class="redTable" style="height: 283px;" width="434">
+<thead>
+<tr>
+<th>AUDIT</th>
+<th>MEDICATION</th>
+<th>DAY COUNT</th>
+<th>NIGHT COUNT</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="4">
+<div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Name of medication</td>
+<td>Number</td>
+<td>Number</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>medication</td>
+<td>##</td>
+<td>##</td>
+</tr>
+</tbody>
+</table>
+
+<body>
+<html>
